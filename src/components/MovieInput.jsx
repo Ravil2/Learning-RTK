@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import { addMovie } from '../movieSlice'
+import { useDispatch } from 'react-redux'
 
 export default function MovieInput() {
   const [newMovie, setNewMovie] = useState('')
 
+  const dispatch = useDispatch()
+
   const handleAddMovie = () => {
-    if(newMovie) {
-      
+    if (newMovie) {
+      dispatch(addMovie(newMovie))
+      setNewMovie('')
     }
   }
 
