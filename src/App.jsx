@@ -1,11 +1,11 @@
-import Counter from './components/Counter'
-import CounterUser from './components/CounterUser'
+import MovieInput from './components/MovieInput'
+import MovieList from './components/MovieList'
 
 export default function App() {
   return (
     <div>
-      <Counter />
-      <CounterUser />
+      <MovieInput />
+      <MovieList />
     </div>
   )
 }
