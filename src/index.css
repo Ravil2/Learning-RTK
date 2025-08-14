@@ -1,7 +1,9 @@
+@import 'tailwindcss';
+
 body {
-  background-color: #000;
+  background-color: whitesmoke;
   box-sizing: border-box;
-  color: #fff;
+  color: #000;
   font-weight: bold;
   margin: 0;
   padding: 0;
